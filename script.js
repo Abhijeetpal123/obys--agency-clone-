@@ -42,7 +42,7 @@ function loadingAnimation() {
     stagger:0.2,
   });
   tl.from("#centre1 h1 , #centre2 h1, #centre3 h2, #centre4 h1", {
-    y: 120,
+    y: 140,
     stagger:0.2,
   });
 }
@@ -58,3 +58,13 @@ function cursorAnimation() {
   Shery.makeMagnet("#nav2 h4");
 }
 cursorAnimation();
+
+// function videoCursor2(){
+//     document.addEventListener("mousemove",function(zets){
+//         gsap.to("#video-cursor",{
+//             left:zets.x,
+//             top:zets.y
+//         })
+//     })
+// }
+// videoCursor2();
